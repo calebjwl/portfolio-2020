@@ -1,3 +1,25 @@
 @include media-breakpoint-up(xs) {
+    .header {
+        margin: 2rem 0;
 
+        &__subtitle {
+            margin-bottom: 0;
+        }
+
+        &__location {
+            color: $gray;
+        }
+    }
+
+    .avatar {
+        border-radius: 50%;
+        display: block;
+        margin: 0 auto 2rem;
+        max-width: 50%;
+        max-height: 100%;
+
+        &__caption {
+            text-align: center;
+        }
+    }
 }
